@@ -1491,6 +1491,7 @@ const handleEditSalary = async (salary) => {
                         <label className="form-label">Casual Leave Taken</label>
                         <input
                           type="number"
+                          step= "0.1"
                           className="form-input"
                           name="casualLeaveTaken"
                           value={formData.casualLeaveTaken}
@@ -1505,6 +1506,7 @@ const handleEditSalary = async (salary) => {
                         <label className="form-label">Sick Leave Taken</label>
                         <input
                           type="number"
+                          step= "0.1"
                           className="form-input"
                           name="sickLeaveTaken"
                           value={formData.sickLeaveTaken}
